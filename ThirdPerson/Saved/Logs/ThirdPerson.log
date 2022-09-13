@@ -1981,3 +1981,1236 @@ NVIDIA Quadro P2200
 [2022.09.13-06.10.06:628][538]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/NewMap_Auto8A484BD65492B9827B25D28AAB75FB442.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/地圖/NewMap_Auto8.umap'
 [2022.09.13-06.10.06:639][538]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.173
 [2022.09.13-06.10.06:639][538]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.173
+[2022.09.13-06.21.22:023][425]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-06.21.22:023][425]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-06.21.37:465][220]BlueprintLog: New page: 编译BP_key
+[2022.09.13-06.21.37:641][220]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2022.09.13-06.21.38:325][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_key" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_key.uasset" SILENT=true
+[2022.09.13-06.21.38:333][270]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_key
+[2022.09.13-06.21.38:333][270]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_keyDD3087574D44D497F73D7893424A0502.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_key.uasset'
+[2022.09.13-06.21.38:353][270]AssetCheck: New page: 资产保存：BP_key
+[2022.09.13-06.21.38:353][270]LogContentValidation: Display: 正在验证Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key
+[2022.09.13-06.21.39:311][372]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-06.21.39:319][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-06.21.39:319][372]PIE: New page: PIE会话：NewMap（2022年9月13日 下午10:21:39）
+[2022.09.13-06.21.39:319][372]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-06.21.39:336][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017114s)
+[2022.09.13-06.21.39:336][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.017223s)
+[2022.09.13-06.21.39:337][372]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-06.21.39:337][372]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-06.21.39:337][372]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-06.21.39:338][372]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2022.09.13-06.21.39:430][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.09.13-06.21.39:432][372]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.09.13-06.21.39:432][372]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-06.21.39:432][372]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-06.21.39:432][372]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-06.21.39:432][372]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-06.21.39:432][372]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-06.21.39:432][372]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-06.21.39:432][372]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-06.21.39:432][372]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-06.21.39:433][372]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-06.21.39:433][372]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-06.21.39:433][372]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-06.21.39:436][372]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-06.21.39:457][372]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-06.21.39:457][372]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-06.21.39:458][372]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-06.21.39:458][372]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-06.21.39:459][372]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2022.09.13-06.21.39:459][372]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2022.09.13-06.21.39:462][372]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2022.09.13-06.21.39:462][372]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2022.09.13-06.21.39:462][372]LogInit: FAudioDevice initialized.
+[2022.09.13-06.21.39:462][372]LogAudio: Display: Audio Device (ID: 12) registered with world 'NewMap'.
+[2022.09.13-06.21.39:529][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-06.21.39:530][372]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-06.21.39:534][372]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-14.21.39
+[2022.09.13-06.21.39:534][372]LogWorld: Bringing up level for play took: 0.003977
+[2022.09.13-06.21.39:537][372]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2022.09.13-06.21.39:544][372]PIE: 登陆的服务器
+[2022.09.13-06.21.39:545][372]PIE: PIE总开始时间：0.226秒。
+[2022.09.13-06.21.39:558][372]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-06.21.46:413][622]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - (Keyboard).
+[2022.09.13-06.21.46:431][622]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - 微軟注音 (TSF IME).
+[2022.09.13-06.21.49:916][772]LogBlueprintUserMessages: [BP_Player_C_0] 1
+[2022.09.13-06.21.59:160][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-06.21.59:160][173]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-06.21.59:161][173]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-06.21.59:166][173]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-06.21.59:167][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-06.21.59:189][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-06.21.59:200][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-06.21.59:285][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.09.13-06.21.59:288][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.09.13-06.21.59:300][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2022.09.13-06.21.59:360][174]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.09.13-06.22.41:583][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.09.13-06.22.41:586][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/地圖/NewMap" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/地圖/NewMap_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.09.13-06.22.41:657][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/地圖/NewMap_Auto9
+[2022.09.13-06.22.41:658][896]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/NewMap_Auto90347BC3C43FF4A800413D59F8985F3FE.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/地圖/NewMap_Auto9.umap'
+[2022.09.13-06.22.41:667][896]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.173
+[2022.09.13-06.22.41:667][896]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.173
+[2022.09.13-06.27.30:823][593]LogDerivedDataCache: C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.161 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.13-06.32.41:650][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.09.13-06.32.41:653][ 50]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.096
+[2022.09.13-06.32.41:653][ 50]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_Player] ([2] browsable assets)...
+[2022.09.13-06.32.41:653][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_Player]
+[2022.09.13-06.32.41:653][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Player" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_Player_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2022.09.13-06.32.41:670][ 50]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_Player_Auto0
+[2022.09.13-06.32.41:670][ 50]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_Player_Auto060C9F4B742798E73B665A3836E9D2A47.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_Player_Auto0.uasset'
+[2022.09.13-06.32.41:670][ 50]LogFileHelpers: Auto-saving content packages took 0.017
+[2022.09.13-06.36.41:575][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Player" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset" SILENT=true
+[2022.09.13-06.36.41:591][791]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Player
+[2022.09.13-06.36.41:592][791]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_Player6391DE8F41B7B0E16E38A08C02BC315C.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset'
+[2022.09.13-06.36.41:615][791]AssetCheck: New page: 资产保存：BP_Player
+[2022.09.13-06.36.41:615][791]LogContentValidation: Display: 正在验证Blueprint /Game/ThirdPerson/Blueprints/BP_Player.BP_Player
+[2022.09.13-06.36.57:525][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/地圖/NewMap" FILE="D:/Github/Unreal/ThirdPerson/Content/地圖/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.13-06.36.57:613][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.09.13-06.36.57:685][387]LogSavePackage: Moving output files for package: /Game/地圖/NewMap
+[2022.09.13-06.36.57:685][387]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/NewMap31400EC149D1E6AA4B929C8847984D6A.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/地圖/NewMap.umap'
+[2022.09.13-06.36.57:700][387]LogFileHelpers: 没有需要保存的新变更！
+[2022.09.13-06.36.57:723][387]AssetCheck: New page: 资产保存：NewMap
+[2022.09.13-06.36.57:723][387]LogContentValidation: Display: 正在验证World /Game/地圖/NewMap.NewMap
+[2022.09.13-06.37.28:215][565]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.28:215][565]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.28:223][565]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_3
+[2022.09.13-06.37.28:236][565]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_3
+[2022.09.13-06.37.29:645][615]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.29:645][615]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.29:653][615]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_4
+[2022.09.13-06.37.29:666][615]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_4
+[2022.09.13-06.37.43:681][212]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.43:681][212]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.43:683][212]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_5
+[2022.09.13-06.37.43:684][212]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_5
+[2022.09.13-06.37.45:481][292]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.45:481][292]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.45:484][292]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_6
+[2022.09.13-06.37.45:485][292]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_6
+[2022.09.13-06.37.50:197][486]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.50:197][486]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.50:199][486]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_7
+[2022.09.13-06.37.50:200][486]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_7
+[2022.09.13-06.37.53:978][648]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.53:978][648]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.37.53:981][648]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_8
+[2022.09.13-06.37.53:982][648]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_8
+[2022.09.13-06.38.20:608][831]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.20:608][831]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.20:609][831]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_9
+[2022.09.13-06.38.20:611][831]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_9
+[2022.09.13-06.38.22:378][904]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.22:378][904]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.22:381][904]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_10
+[2022.09.13-06.38.22:382][904]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_10
+[2022.09.13-06.38.27:764][114]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.27:764][114]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.27:765][114]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_11
+[2022.09.13-06.38.27:767][114]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_11
+[2022.09.13-06.38.29:049][167]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.29:049][167]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.29:052][167]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_12
+[2022.09.13-06.38.29:053][167]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_12
+[2022.09.13-06.38.38:123][552]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.38:123][552]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.38:125][552]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_13
+[2022.09.13-06.38.38:127][552]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_13
+[2022.09.13-06.38.39:019][591]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.39:019][591]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.39:021][591]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_14
+[2022.09.13-06.38.39:023][591]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_14
+[2022.09.13-06.38.48:996][  6]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.48:996][  6]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.48:997][  6]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_15
+[2022.09.13-06.38.48:999][  6]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_15
+[2022.09.13-06.38.50:196][ 57]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.50:197][ 57]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.50:199][ 57]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_16
+[2022.09.13-06.38.50:201][ 57]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_16
+[2022.09.13-06.38.58:653][389]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.58:653][389]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.38.58:654][389]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_17
+[2022.09.13-06.38.58:656][389]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_17
+[2022.09.13-06.39.01:195][491]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.39.01:195][491]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.39.01:197][491]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_18
+[2022.09.13-06.39.01:198][491]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_18
+[2022.09.13-06.41.00:308][307]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.41.00:308][307]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.41.00:316][307]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_19
+[2022.09.13-06.41.00:331][307]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_19
+[2022.09.13-06.41.01:903][365]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.41.01:903][365]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_key.BP_key_C
+[2022.09.13-06.41.01:912][365]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_20
+[2022.09.13-06.41.01:927][365]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_key.BP_key as actor: BP_key_C /Game/地圖/NewMap.NewMap:PersistentLevel.BP_key_C_20
+[2022.09.13-06.41.04:879][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/地圖/NewMap" FILE="D:/Github/Unreal/ThirdPerson/Content/地圖/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.13-06.41.04:990][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.09.13-06.41.05:098][518]LogSavePackage: Moving output files for package: /Game/地圖/NewMap
+[2022.09.13-06.41.05:099][518]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/NewMap53317A0140066EC4D10B96855E9B393E.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/地圖/NewMap.umap'
+[2022.09.13-06.41.05:114][518]LogFileHelpers: 没有需要保存的新变更！
+[2022.09.13-06.41.05:134][518]AssetCheck: New page: 资产保存：NewMap
+[2022.09.13-06.41.05:134][518]LogContentValidation: Display: 正在验证World /Game/地圖/NewMap.NewMap
+[2022.09.13-06.58.31:536][421]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-06.58.31:536][421]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-07.00.09:078][989]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2022.09.13-07.00.09:080][989]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.101
+[2022.09.13-07.00.09:081][989]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BW_Main] ([2] browsable assets)...
+[2022.09.13-07.00.09:081][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BW_Main]
+[2022.09.13-07.00.09:081][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.09.13-07.00.09:086][989]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto1
+[2022.09.13-07.00.09:086][989]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_Main_Auto1BDE870DB45C4FC712B6D2A88BD8E132E.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto1.uasset'
+[2022.09.13-07.00.09:086][989]LogFileHelpers: Auto-saving content packages took 0.007
+[2022.09.13-07.08.59:067][233]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-07.08.59:068][233]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-07.10.25:030][ 42]LogEditorTransaction: Undo 删除当前选项
+[2022.09.13-07.12.39:102][ 58]BlueprintLog: New page: 编译BP_Player
+[2022.09.13-07.12.39:276][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2022.09.13-07.12.40:229][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Player" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset" SILENT=true
+[2022.09.13-07.12.40:250][132]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Player
+[2022.09.13-07.12.40:250][132]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_Player0442D28441794F030AFC3EB930FB88A1.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset'
+[2022.09.13-07.12.40:271][132]AssetCheck: New page: 资产保存：BP_Player
+[2022.09.13-07.12.40:271][132]LogContentValidation: Display: 正在验证Blueprint /Game/ThirdPerson/Blueprints/BP_Player.BP_Player
+[2022.09.13-07.12.44:432][402]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-07.12.44:441][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-07.12.44:441][402]PIE: New page: PIE会话：NewMap（2022年9月13日 下午11:12:44）
+[2022.09.13-07.12.44:441][402]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-07.12.44:462][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020567s)
+[2022.09.13-07.12.44:462][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.020666s)
+[2022.09.13-07.12.44:462][402]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-07.12.44:462][402]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-07.12.44:463][402]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-07.12.44:463][402]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2022.09.13-07.12.44:559][402]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.09.13-07.12.44:563][402]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.09.13-07.12.44:563][402]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-07.12.44:563][402]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-07.12.44:563][402]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-07.12.44:563][402]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-07.12.44:563][402]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-07.12.44:563][402]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-07.12.44:563][402]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-07.12.44:563][402]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-07.12.44:564][402]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-07.12.44:564][402]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-07.12.44:564][402]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-07.12.44:566][402]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-07.12.44:592][402]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-07.12.44:592][402]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-07.12.44:592][402]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-07.12.44:592][402]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-07.12.44:594][402]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2022.09.13-07.12.44:594][402]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2022.09.13-07.12.44:597][402]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2022.09.13-07.12.44:597][402]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2022.09.13-07.12.44:597][402]LogInit: FAudioDevice initialized.
+[2022.09.13-07.12.44:597][402]LogAudio: Display: Audio Device (ID: 13) registered with world 'NewMap'.
+[2022.09.13-07.12.44:613][402]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-07.12.44:617][402]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-15.12.44
+[2022.09.13-07.12.44:617][402]LogWorld: Bringing up level for play took: 0.004022
+[2022.09.13-07.12.44:619][402]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2022.09.13-07.12.44:623][402]PIE: 登陆的服务器
+[2022.09.13-07.12.44:625][402]PIE: PIE总开始时间：0.184秒。
+[2022.09.13-07.12.49:170][579]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - (Keyboard).
+[2022.09.13-07.12.49:189][579]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - 微軟注音 (TSF IME).
+[2022.09.13-07.12.52:714][752]LogBlueprintUserMessages: [BP_Player_C_0] 1
+[2022.09.13-07.12.58:320][ 45]LogBlueprintUserMessages: [BP_Player_C_0] 2
+[2022.09.13-07.13.07:524][519]LogBlueprintUserMessages: [BP_Player_C_0] 3
+[2022.09.13-07.13.13:710][853]LogBlueprintUserMessages: [BP_Player_C_0] 4
+[2022.09.13-07.13.23:409][336]LogBlueprintUserMessages: [BP_Player_C_0] 5
+[2022.09.13-07.13.30:237][652]LogBlueprintUserMessages: [BP_Player_C_0] 6
+[2022.09.13-07.13.33:792][822]LogBlueprintUserMessages: [BP_Player_C_0] 7
+[2022.09.13-07.13.40:785][142]LogBlueprintUserMessages: [BP_Player_C_0] 8
+[2022.09.13-07.13.45:165][355]LogBlueprintUserMessages: [BP_Player_C_0] 9
+[2022.09.13-07.13.56:130][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-07.13.56:130][844]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-07.13.56:130][844]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-07.13.56:131][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-07.13.56:150][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-07.13.56:162][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-07.13.56:248][844]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.13-07.13.56:249][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.09.13-07.13.56:251][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.09.13-07.13.56:257][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-07.13.56:263][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2022.09.13-07.13.57:897][845]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.09.13-07.14.24:245][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2022.09.13-07.14.24:249][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/地圖/NewMap" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/地圖/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.09.13-07.14.24:338][ 52]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/地圖/NewMap_Auto2
+[2022.09.13-07.14.24:339][ 52]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/NewMap_Auto2AC08C9474F37069D696D8E8DA798E235.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/地圖/NewMap_Auto2.umap'
+[2022.09.13-07.14.24:348][ 52]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.192
+[2022.09.13-07.14.24:348][ 52]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.192
+[2022.09.13-07.24.05:258][668]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-07.24.05:258][668]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-07.25.30:849][374]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2022.09.13-07.25.30:852][374]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.103
+[2022.09.13-07.25.30:852][374]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BW_Main] ([2] browsable assets)...
+[2022.09.13-07.25.30:856][374]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main]
+[2022.09.13-07.25.30:856][374]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BW_Main]
+[2022.09.13-07.25.30:856][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2022.09.13-07.25.30:863][374]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto3
+[2022.09.13-07.25.30:863][374]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_Main_Auto3280D345448998787883E85954B2A5931.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto3.uasset'
+[2022.09.13-07.25.30:865][374]LogFileHelpers: Auto-saving content packages took 0.013
+[2022.09.13-07.26.23:543][965]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - (Keyboard).
+[2022.09.13-07.26.23:565][965]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - 微軟注音 (TSF IME).
+[2022.09.13-07.27.30:829][873]LogDerivedDataCache: C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.171 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.13-07.28.58:002][841]LogSlateStyle: Warning: 未能找到Slate控件类型“Window.Buttons.Close”。请使用FButtonStyle默认值替换。
+[2022.09.13-07.28.58:002][841]LogSlateStyle: Warning: 未能找到Slate控件类型“Window.Buttons.Close”。请使用FButtonStyle默认值替换。
+[2022.09.13-07.29.10:968][877]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.13-07.30.23:549][494]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-07.30.23:549][494]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-07.31.21:294][945]LogSlate: Window '资产另存为' being destroyed
+[2022.09.13-07.31.29:724][945]LogSlate: Window '消息' being destroyed
+[2022.09.13-07.31.29:728][945]Message dialog closed, result: No, title: 消息, text: 类[StaticMesh]的对象[SM_Statue]已经存在于文件[/Game/StarterContent/Props/SM_Statue]中。要替换现有的对象吗?如果点击“是”，那么将会删除现有对象。否则点击“否”，为新对象选择一个唯一的命名。
+[2022.09.13-07.32.09:389][207]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Statue.SM_Statue
+[2022.09.13-07.32.09:403][207]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-07.32.10:063][207]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.09.13-07.35.31:195][519]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.09.13-07.35.31:198][519]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.105
+[2022.09.13-07.35.31:198][519]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BW_Main] ([2] browsable assets)...
+[2022.09.13-07.35.31:202][519]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main]
+[2022.09.13-07.35.31:202][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BW_Main]
+[2022.09.13-07.35.31:202][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2022.09.13-07.35.31:209][519]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto4
+[2022.09.13-07.35.31:209][519]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_Main_Auto40FE35EE04853392FB12E61A8942EDC98.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto4.uasset'
+[2022.09.13-07.35.31:209][519]LogFileHelpers: Auto-saving content packages took 0.011
+[2022.09.13-07.45.12:394][566]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-07.45.12:394][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-07.46.06:709][593]AssetReimport: New page: 出色的源内容修改下午11:46:06
+[2022.09.13-07.46.06:777][594]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Github/Unreal/ThirdPerson/Content/Key.png)
+[2022.09.13-07.46.07:006][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Key" FILE="D:/Github/Unreal/ThirdPerson/Content/Key.uasset" SILENT=true
+[2022.09.13-07.46.07:012][594]LogSavePackage: Moving output files for package: /Game/Key
+[2022.09.13-07.46.07:012][594]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/KeyBBE3C9804F17BC2A46AF47BF9D3A86D0.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/Key.uasset'
+[2022.09.13-07.46.07:199][595]AssetCheck: New page: 资产保存：Key
+[2022.09.13-07.46.07:199][595]LogContentValidation: Display: 正在验证Texture2D /Game/Key.Key
+[2022.09.13-07.46.10:136][731]AssetReimport: 正在导入新资产/Game/Key。
+[2022.09.13-07.48.38:860][629]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.09.13-07.48.38:865][629]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.112
+[2022.09.13-07.48.38:865][629]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BW_Main] ([2] browsable assets)...
+[2022.09.13-07.48.38:869][629]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main]
+[2022.09.13-07.48.38:870][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BW_Main]
+[2022.09.13-07.48.38:870][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2022.09.13-07.48.38:877][629]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto5
+[2022.09.13-07.48.38:877][629]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_Main_Auto509731DCB4FD468458B390F9818C56591.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto5.uasset'
+[2022.09.13-07.48.38:878][629]LogFileHelpers: Auto-saving content packages took 0.013
+[2022.09.13-07.50.34:531][310]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-07.50.34:551][310]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get_keyNumber_Text_0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-07.50.34:683][310]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.09.13-07.51.27:391][569]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-07.51.27:397][569]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get Key Number Text 0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-07.51.27:490][569]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2022.09.13-07.51.40:636][112]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-07.51.40:636][112]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-07.52.06:245][996]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-07.52.06:250][996]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get Key Number Text 0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-07.52.06:342][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2022.09.13-07.52.11:799][634]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - (Keyboard).
+[2022.09.13-07.52.11:818][634]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - 微軟注音 (TSF IME).
+[2022.09.13-07.52.12:244][685]LogEditorTransaction: Undo 删除当前选项
+[2022.09.13-07.52.12:647][692]LogEditorTransaction: Undo 移动节点
+[2022.09.13-07.52.12:855][702]LogEditorTransaction: Undo 创建引脚连接
+[2022.09.13-07.52.13:426][768]LogEditorTransaction: Undo 修改参数类型
+[2022.09.13-07.52.14:315][872]LogEditorTransaction: Undo 添加输出参数
+[2022.09.13-07.52.14:830][931]LogEditorTransaction: Undo 移除参数
+[2022.09.13-07.52.17:682][270]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-07.52.17:687][270]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get Key Number Text 0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-07.52.17:787][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.09.13-07.52.36:811][777]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-07.52.36:816][777]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get Key Number Text 0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-07.52.36:916][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.09.13-07.52.37:665][858]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-07.52.37:670][858]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get Key Number Text 0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-07.52.37:768][858]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2022.09.13-07.52.38:176][898]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-07.52.38:181][898]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get Key Number Text 0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-07.52.38:278][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.09.13-07.52.39:082][986]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-07.52.39:087][986]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get Key Number Text 0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-07.52.39:185][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.09.13-07.52.43:212][448]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-07.52.43:218][448]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get Key Number Text 0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-07.52.43:314][448]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.09.13-07.52.59:985][426]LogBlueprint: Warning: Unknown type of hyperlinked object (keyNumber), cannot focus it
+[2022.09.13-07.53.00:535][492]LogBlueprint: Warning: Unknown type of hyperlinked object (keyNumber), cannot focus it
+[2022.09.13-07.53.00:759][519]LogBlueprint: Warning: Unknown type of hyperlinked object (keyNumber), cannot focus it
+[2022.09.13-07.53.06:028][143]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-07.53.06:028][143]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-07.55.25:474][497]LogEditorTransaction: Undo 删除动画
+[2022.09.13-07.55.27:710][701]LogEditorTransaction: Undo 设置键值
+[2022.09.13-07.55.28:170][747]LogEditorTransaction: Undo 设置键值
+[2022.09.13-07.58.38:895][452]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.09.13-07.58.38:898][452]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.107
+[2022.09.13-07.58.38:899][452]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BW_Main] ([2] browsable assets)...
+[2022.09.13-07.58.38:907][452]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main]
+[2022.09.13-07.58.38:907][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BW_Main]
+[2022.09.13-07.58.38:907][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2022.09.13-07.58.38:918][452]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto6
+[2022.09.13-07.58.38:918][452]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_Main_Auto63D39C3334F019F6E1EF32B84AABE8BF6.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BW_Main_Auto6.uasset'
+[2022.09.13-07.58.38:919][452]LogFileHelpers: Auto-saving content packages took 0.020
+[2022.09.13-08.01.24:573][268]LogEditorTransaction: Undo 当前时间添加关键帧
+[2022.09.13-08.01.25:357][296]LogEditorTransaction: Undo 动画属性已改变
+[2022.09.13-08.01.26:834][463]LogEditorTransaction: Undo 将控件添加到动画
+[2022.09.13-08.01.27:246][503]LogEditorTransaction: Undo 重命名节点
+[2022.09.13-08.01.27:906][572]LogEditorTransaction: Undo 移动节点
+[2022.09.13-08.01.35:599][427]LogEditorTransaction: Undo 移动节点
+[2022.09.13-08.01.36:042][435]LogEditorTransaction: Undo 移动节点
+[2022.09.13-08.01.36:500][475]LogEditorTransaction: Undo 移动节点
+[2022.09.13-08.01.36:920][524]LogEditorTransaction: Undo 移动节点
+[2022.09.13-08.01.37:383][578]LogEditorTransaction: Undo 创建引脚连接
+[2022.09.13-08.01.37:842][631]LogEditorTransaction: Undo 移动节点
+[2022.09.13-08.01.38:205][673]LogEditorTransaction: Undo 移动节点
+[2022.09.13-08.01.38:468][703]LogEditorTransaction: Undo 移动节点
+[2022.09.13-08.01.38:731][733]LogEditorTransaction: Undo 创建引脚连接
+[2022.09.13-08.01.39:014][765]LogEditorTransaction: Undo 添加引脚
+[2022.09.13-08.01.39:549][826]LogEditorTransaction: Undo 修改字符串引脚值
+[2022.09.13-08.01.49:940][ 33]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-08.01.49:940][ 33]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-08.01.51:486][210]LogEditorTransaction: Redo 修改字符串引脚值
+[2022.09.13-08.01.51:762][215]LogEditorTransaction: Redo 添加引脚
+[2022.09.13-08.01.51:971][218]LogEditorTransaction: Redo 创建引脚连接
+[2022.09.13-08.01.52:139][230]LogEditorTransaction: Redo 移动节点
+[2022.09.13-08.01.52:343][253]LogEditorTransaction: Redo 移动节点
+[2022.09.13-08.01.52:557][277]LogEditorTransaction: Redo 移动节点
+[2022.09.13-08.01.52:778][302]LogEditorTransaction: Redo 创建引脚连接
+[2022.09.13-08.01.52:986][325]LogEditorTransaction: Redo 移动节点
+[2022.09.13-08.01.53:182][347]LogEditorTransaction: Redo 移动节点
+[2022.09.13-08.01.53:370][368]LogEditorTransaction: Redo 移动节点
+[2022.09.13-08.01.53:558][389]LogEditorTransaction: Redo 移动节点
+[2022.09.13-08.01.53:764][412]LogEditorTransaction: Redo 移动节点
+[2022.09.13-08.01.53:960][434]LogEditorTransaction: Redo 重命名节点
+[2022.09.13-08.01.54:160][455]LogEditorTransaction: Redo 将控件添加到动画
+[2022.09.13-08.01.54:375][479]LogEditorTransaction: Redo 动画属性已改变
+[2022.09.13-08.01.54:603][504]LogEditorTransaction: Redo 当前时间添加关键帧
+[2022.09.13-08.01.54:833][530]LogEditorTransaction: Redo 设置键值
+[2022.09.13-08.01.55:031][552]LogEditorTransaction: Redo 设置键值
+[2022.09.13-08.01.55:254][577]LogEditorTransaction: Redo 删除动画
+[2022.09.13-08.02.00:142][162]LogEditorTransaction: Undo 删除动画
+[2022.09.13-08.02.04:925][730]LogEditorTransaction: Undo 设置键值
+[2022.09.13-08.02.24:148][960]LogEditorTransaction: Undo 设置键值
+[2022.09.13-08.03.19:674][355]LogEditorTransaction: Undo 设置键值
+[2022.09.13-08.05.50:131][ 47]LogEditorTransaction: Undo 设置键值
+[2022.09.13-08.05.50:765][ 58]LogEditorTransaction: Undo 设置键值
+[2022.09.13-08.05.51:380][109]LogEditorTransaction: Undo 设置键值
+[2022.09.13-08.06.18:985][920]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-08.06.18:992][920]LogBlueprint: Error: [AssetLog] D:\Github\Unreal\ThirdPerson\Content\ThirdPerson\Blueprints\BW_Main.uasset: [Compiler] 绑定：控件 ' /Script/UMG.TextBlock:TextDelegate ’ 上的 ' keyNumber ’ 属性：成员：Get Key Number Text 0参数数量错误，需要返回1值并不取入参数。
+[2022.09.13-08.06.19:138][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.09.13-08.06.54:623][984]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-08.06.54:623][984]LogWindowsTextInputMethodSystem: Activated input method: 英文 (美國) - (Keyboard).
+[2022.09.13-08.07.58:207][476]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-08.07.58:316][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2022.09.13-08.07.59:910][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset" SILENT=true
+[2022.09.13-08.07.59:924][648]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BW_Main
+[2022.09.13-08.07.59:924][648]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_MainF39DEDE1426296724B621FABCC14EE5D.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset'
+[2022.09.13-08.07.59:943][648]AssetCheck: New page: 资产保存：BW_Main
+[2022.09.13-08.07.59:943][648]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main
+[2022.09.13-08.09.26:674][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2022.09.13-08.09.26:677][576]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.104
+[2022.09.13-08.09.26:677][576]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_Player] ([2] browsable assets)...
+[2022.09.13-08.09.26:747][576]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_Player.BP_Player]
+[2022.09.13-08.09.26:747][576]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_Player]
+[2022.09.13-08.09.26:747][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Player" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_Player_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2022.09.13-08.09.26:770][576]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_Player_Auto7
+[2022.09.13-08.09.26:770][576]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_Player_Auto7101A56854E00B14F60586FA09922565D.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_Player_Auto7.uasset'
+[2022.09.13-08.09.26:771][576]LogFileHelpers: Auto-saving content packages took 0.094
+[2022.09.13-08.13.09:253][723]BlueprintLog: New page: 编译BP_Player
+[2022.09.13-08.13.09:440][723]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.09.13-08.13.10:832][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Player" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset" SILENT=true
+[2022.09.13-08.13.10:855][832]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Player
+[2022.09.13-08.13.10:855][832]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_Player144BB5464B25A059321884840FF0FC23.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset'
+[2022.09.13-08.13.10:877][832]AssetCheck: New page: 资产保存：BP_Player
+[2022.09.13-08.13.10:877][832]LogContentValidation: Display: 正在验证Blueprint /Game/ThirdPerson/Blueprints/BP_Player.BP_Player
+[2022.09.13-08.13.14:950][111]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.13.14:959][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.13.14:959][111]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:13:14）
+[2022.09.13-08.13.14:959][111]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.13.14:979][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019390s)
+[2022.09.13-08.13.14:979][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.019497s)
+[2022.09.13-08.13.14:979][111]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.13.14:979][111]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.13.14:980][111]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.13.14:980][111]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2022.09.13-08.13.15:076][111]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.09.13-08.13.15:081][111]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.09.13-08.13.15:081][111]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.13.15:081][111]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.13.15:081][111]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.13.15:081][111]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.13.15:081][111]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.13.15:081][111]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.13.15:081][111]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.13.15:081][111]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.13.15:082][111]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.13.15:082][111]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.13.15:082][111]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.13.15:085][111]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.13.15:105][111]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.13.15:105][111]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.13.15:106][111]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.13.15:106][111]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.13.15:107][111]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2022.09.13-08.13.15:107][111]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2022.09.13-08.13.15:110][111]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2022.09.13-08.13.15:110][111]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2022.09.13-08.13.15:110][111]LogInit: FAudioDevice initialized.
+[2022.09.13-08.13.15:110][111]LogAudio: Display: Audio Device (ID: 14) registered with world 'NewMap'.
+[2022.09.13-08.13.15:124][111]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.13.15:128][111]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.13.15
+[2022.09.13-08.13.15:128][111]LogWorld: Bringing up level for play took: 0.003642
+[2022.09.13-08.13.15:130][111]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2022.09.13-08.13.15:135][111]PIE: 登陆的服务器
+[2022.09.13-08.13.15:136][111]PIE: PIE总开始时间：0.177秒。
+[2022.09.13-08.13.22:739][438]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - (Keyboard).
+[2022.09.13-08.13.22:765][438]LogWindowsTextInputMethodSystem: Activated input method: 中文 (繁體，台灣) - 微軟注音 (TSF IME).
+[2022.09.13-08.13.27:251][656]LogBlueprintUserMessages: [BP_Player_C_0] 1
+[2022.09.13-08.13.32:209][918]LogBlueprintUserMessages: [BP_Player_C_0] 2
+[2022.09.13-08.13.34:352][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.13.34:352][ 31]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.13.34:353][ 31]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.13.34:354][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.13.34:369][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.13.34:381][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.13.34:473][ 31]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.13-08.13.34:474][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.09.13-08.13.34:476][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.09.13-08.13.34:482][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.13.34:488][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.09.13-08.13.34:592][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.09.13-08.13.40:338][421]LogSlate: Window 'BW_Main' being destroyed
+[2022.09.13-08.13.44:912][955]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-08.13.44:912][955]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-08.14.04:427][195]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.14.04:444][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.14.04:444][195]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:14:04）
+[2022.09.13-08.14.04:445][195]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.14.04:464][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019779s)
+[2022.09.13-08.14.04:465][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.019884s)
+[2022.09.13-08.14.04:465][195]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.14.04:465][195]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.14.04:465][195]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.14.04:466][195]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2022.09.13-08.14.04:559][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.09.13-08.14.04:561][195]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.09.13-08.14.04:562][195]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.14.04:562][195]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.14.04:562][195]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.14.04:562][195]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.14.04:562][195]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.14.04:562][195]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.14.04:562][195]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.14.04:562][195]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.14.04:562][195]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.14.04:562][195]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.14.04:562][195]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.14.04:565][195]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.14.04:587][195]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.14.04:587][195]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.14.04:587][195]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.14.04:587][195]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.14.04:589][195]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2022.09.13-08.14.04:589][195]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2022.09.13-08.14.04:591][195]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2022.09.13-08.14.04:592][195]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2022.09.13-08.14.04:592][195]LogInit: FAudioDevice initialized.
+[2022.09.13-08.14.04:592][195]LogAudio: Display: Audio Device (ID: 15) registered with world 'NewMap'.
+[2022.09.13-08.14.04:661][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.14.04:661][195]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.14.04:666][195]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.14.04
+[2022.09.13-08.14.04:666][195]LogWorld: Bringing up level for play took: 0.004497
+[2022.09.13-08.14.04:669][195]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2022.09.13-08.14.04:676][195]PIE: 登陆的服务器
+[2022.09.13-08.14.04:678][195]PIE: PIE总开始时间：0.234秒。
+[2022.09.13-08.14.04:692][195]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.14.12:582][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.14.12:582][501]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.14.12:583][501]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.14.12:603][501]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.14.12:604][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.14.12:621][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.14.12:633][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.14.12:728][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.09.13-08.14.12:730][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.09.13-08.14.12:742][501]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.09.13-08.14.12:786][502]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.09.13-08.14.37:440][181]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.14.37:448][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.14.37:448][181]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:14:37）
+[2022.09.13-08.14.37:449][181]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.14.37:468][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019272s)
+[2022.09.13-08.14.37:468][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.019374s)
+[2022.09.13-08.14.37:468][181]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.14.37:468][181]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.14.37:469][181]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.14.37:469][181]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2022.09.13-08.14.37:558][181]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2022.09.13-08.14.37:560][181]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.09.13-08.14.37:560][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.14.37:560][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.14.37:560][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.14.37:560][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.14.37:560][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.14.37:560][181]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.14.37:560][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.14.37:561][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.14.37:561][181]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.14.37:561][181]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.14.37:561][181]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.14.37:564][181]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.14.37:584][181]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.14.37:584][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.14.37:584][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.14.37:584][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.14.37:586][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.09.13-08.14.37:586][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.09.13-08.14.37:588][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.09.13-08.14.37:589][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.09.13-08.14.37:589][181]LogInit: FAudioDevice initialized.
+[2022.09.13-08.14.37:589][181]LogAudio: Display: Audio Device (ID: 16) registered with world 'NewMap'.
+[2022.09.13-08.14.37:660][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.14.37:660][181]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.14.37:664][181]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.14.37
+[2022.09.13-08.14.37:664][181]LogWorld: Bringing up level for play took: 0.004405
+[2022.09.13-08.14.37:667][181]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2022.09.13-08.14.37:674][181]PIE: 登陆的服务器
+[2022.09.13-08.14.37:676][181]PIE: PIE总开始时间：0.228秒。
+[2022.09.13-08.14.37:691][181]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.14.42:773][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.14.42:773][382]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.14.42:774][382]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.14.42:783][382]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.14.42:784][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.14.42:797][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.14.42:809][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.14.42:897][382]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.13-08.14.42:897][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.09.13-08.14.42:899][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.09.13-08.14.42:911][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2022.09.13-08.14.42:962][383]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.09.13-08.14.46:821][766]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.14.46:828][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.14.46:828][766]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:14:46）
+[2022.09.13-08.14.46:829][766]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.14.46:847][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018084s)
+[2022.09.13-08.14.46:847][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.018172s)
+[2022.09.13-08.14.46:847][766]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.14.46:847][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.14.46:847][766]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.14.46:848][766]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2022.09.13-08.14.46:942][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.09.13-08.14.46:944][766]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.09.13-08.14.46:944][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.14.46:944][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.14.46:944][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.14.46:944][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.14.46:944][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.14.46:944][766]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.14.46:944][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.14.46:944][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.14.46:945][766]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.14.46:945][766]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.14.46:945][766]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.14.46:948][766]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.14.46:967][766]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.14.46:967][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.14.46:967][766]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.14.46:967][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.14.46:968][766]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2022.09.13-08.14.46:968][766]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2022.09.13-08.14.46:972][766]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2022.09.13-08.14.46:972][766]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2022.09.13-08.14.46:972][766]LogInit: FAudioDevice initialized.
+[2022.09.13-08.14.46:972][766]LogAudio: Display: Audio Device (ID: 17) registered with world 'NewMap'.
+[2022.09.13-08.14.47:046][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.14.47:046][766]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.14.47:051][766]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.14.47
+[2022.09.13-08.14.47:051][766]LogWorld: Bringing up level for play took: 0.004528
+[2022.09.13-08.14.47:054][766]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2022.09.13-08.14.47:062][766]PIE: 登陆的服务器
+[2022.09.13-08.14.47:064][766]PIE: PIE总开始时间：0.235秒。
+[2022.09.13-08.14.47:079][766]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.15.10:113][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.15.10:113][748]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.15.10:113][748]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.15.10:137][748]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.15.10:138][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.15.10:156][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.15.10:168][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.15.10:251][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.09.13-08.15.10:254][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.09.13-08.15.10:265][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2022.09.13-08.15.10:312][749]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.09.13-08.15.23:936][139]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-08.15.24:047][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.09.13-08.15.24:738][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset" SILENT=true
+[2022.09.13-08.15.24:752][179]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BW_Main
+[2022.09.13-08.15.24:752][179]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_Main1D25E07C4DACE62AC29117A045B23AED.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset'
+[2022.09.13-08.15.24:772][179]AssetCheck: New page: 资产保存：BW_Main
+[2022.09.13-08.15.24:772][179]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main
+[2022.09.13-08.15.25:837][274]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.15.25:846][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.15.25:846][274]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:15:25）
+[2022.09.13-08.15.25:846][274]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.15.25:866][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019595s)
+[2022.09.13-08.15.25:866][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.019698s)
+[2022.09.13-08.15.25:866][274]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.15.25:866][274]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.15.25:867][274]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.15.25:867][274]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2022.09.13-08.15.25:961][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.09.13-08.15.25:964][274]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.09.13-08.15.25:964][274]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.15.25:964][274]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.15.25:964][274]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.15.25:964][274]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.15.25:964][274]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.15.25:964][274]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.15.25:964][274]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.15.25:964][274]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.15.25:965][274]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.15.25:965][274]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.15.25:965][274]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.15.25:968][274]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.15.25:990][274]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.15.25:991][274]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.15.25:991][274]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.15.25:991][274]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.15.25:993][274]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2022.09.13-08.15.25:993][274]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2022.09.13-08.15.25:996][274]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2022.09.13-08.15.25:996][274]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2022.09.13-08.15.25:996][274]LogInit: FAudioDevice initialized.
+[2022.09.13-08.15.25:996][274]LogAudio: Display: Audio Device (ID: 18) registered with world 'NewMap'.
+[2022.09.13-08.15.26:058][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.15.26:058][274]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.15.26:063][274]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.15.26
+[2022.09.13-08.15.26:063][274]LogWorld: Bringing up level for play took: 0.004491
+[2022.09.13-08.15.26:066][274]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2022.09.13-08.15.26:073][274]PIE: 登陆的服务器
+[2022.09.13-08.15.26:075][274]PIE: PIE总开始时间：0.229秒。
+[2022.09.13-08.15.26:090][274]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.15.32:673][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.15.32:673][540]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.15.32:673][540]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.15.32:684][540]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.15.32:685][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.15.32:696][540]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.15.32:707][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.15.32:785][540]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.13-08.15.32:786][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.09.13-08.15.32:788][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.09.13-08.15.32:800][540]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.09.13-08.15.32:850][541]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.09.13-08.15.33:409][592]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.15.33:417][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.15.33:417][592]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:15:33）
+[2022.09.13-08.15.33:418][592]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.15.33:438][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020088s)
+[2022.09.13-08.15.33:438][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.020190s)
+[2022.09.13-08.15.33:438][592]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.15.33:438][592]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.15.33:438][592]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.15.33:439][592]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2022.09.13-08.15.33:527][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.09.13-08.15.33:529][592]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.09.13-08.15.33:529][592]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.15.33:529][592]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.15.33:529][592]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.15.33:529][592]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.15.33:529][592]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.15.33:529][592]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.15.33:529][592]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.15.33:529][592]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.15.33:530][592]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.15.33:530][592]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.15.33:530][592]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.15.33:532][592]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.15.33:553][592]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.15.33:553][592]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.15.33:553][592]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.15.33:553][592]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.15.33:554][592]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2022.09.13-08.15.33:554][592]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2022.09.13-08.15.33:557][592]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2022.09.13-08.15.33:557][592]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2022.09.13-08.15.33:557][592]LogInit: FAudioDevice initialized.
+[2022.09.13-08.15.33:557][592]LogAudio: Display: Audio Device (ID: 19) registered with world 'NewMap'.
+[2022.09.13-08.15.33:624][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.15.33:625][592]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.15.33:629][592]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.15.33
+[2022.09.13-08.15.33:629][592]LogWorld: Bringing up level for play took: 0.004387
+[2022.09.13-08.15.33:632][592]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2022.09.13-08.15.33:639][592]PIE: 登陆的服务器
+[2022.09.13-08.15.33:641][592]PIE: PIE总开始时间：0.224秒。
+[2022.09.13-08.15.33:656][592]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.15.42:522][954]LogBlueprintUserMessages: [BP_Player_C_0] 1
+[2022.09.13-08.15.44:033][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.15.44:033][ 20]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.15.44:034][ 20]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.15.44:048][ 20]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.15.44:049][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.15.44:069][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.15.44:080][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.15.44:165][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.09.13-08.15.44:167][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.09.13-08.15.44:179][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.09.13-08.15.44:228][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.09.13-08.18.59:960][962]BlueprintLog: New page: 编译BP_Player
+[2022.09.13-08.19.00:137][962]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.09.13-08.19.01:055][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Player" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset" SILENT=true
+[2022.09.13-08.19.01:075][ 17]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Player
+[2022.09.13-08.19.01:075][ 17]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_PlayerB6816B5847D88314EE6F8EB6B8B68E6D.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset'
+[2022.09.13-08.19.01:093][ 17]AssetCheck: New page: 资产保存：BP_Player
+[2022.09.13-08.19.01:093][ 17]LogContentValidation: Display: 正在验证Blueprint /Game/ThirdPerson/Blueprints/BP_Player.BP_Player
+[2022.09.13-08.19.04:329][317]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.19.04:338][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.19.04:338][317]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:19:04）
+[2022.09.13-08.19.04:338][317]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.19.04:358][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019862s)
+[2022.09.13-08.19.04:358][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.019964s)
+[2022.09.13-08.19.04:359][317]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.19.04:359][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.19.04:359][317]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.19.04:360][317]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2022.09.13-08.19.04:456][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2022.09.13-08.19.04:460][317]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.09.13-08.19.04:460][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.19.04:460][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.19.04:460][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.19.04:460][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.19.04:460][317]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.19.04:460][317]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.19.04:460][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.19.04:460][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.19.04:461][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.19.04:461][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.19.04:461][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.19.04:464][317]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.19.04:487][317]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.19.04:488][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.19.04:488][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.19.04:488][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.19.04:489][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2022.09.13-08.19.04:489][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2022.09.13-08.19.04:492][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2022.09.13-08.19.04:492][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2022.09.13-08.19.04:492][317]LogInit: FAudioDevice initialized.
+[2022.09.13-08.19.04:492][317]LogAudio: Display: Audio Device (ID: 20) registered with world 'NewMap'.
+[2022.09.13-08.19.04:557][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.19.04:557][317]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.19.04:561][317]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.19.04
+[2022.09.13-08.19.04:561][317]LogWorld: Bringing up level for play took: 0.004344
+[2022.09.13-08.19.04:564][317]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2022.09.13-08.19.04:573][317]PIE: 登陆的服务器
+[2022.09.13-08.19.04:576][317]PIE: PIE总开始时间：0.238秒。
+[2022.09.13-08.19.04:592][317]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.19.11:790][602]LogBlueprintUserMessages: [BP_Player_C_0] 1
+[2022.09.13-08.19.15:434][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.19.15:434][767]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.19.15:435][767]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.19.15:446][767]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.19.15:447][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.19.15:465][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.19.15:477][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.19.15:570][767]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.13-08.19.15:570][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.09.13-08.19.15:572][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.09.13-08.19.15:584][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.09.13-08.19.15:635][768]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.09.13-08.19.21:500][367]LogEditorTransaction: Undo 创建引脚连接
+[2022.09.13-08.19.24:278][629]BlueprintLog: New page: 编译BP_Player
+[2022.09.13-08.19.24:457][629]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.09.13-08.19.25:399][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Player" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset" SILENT=true
+[2022.09.13-08.19.25:423][706]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Player
+[2022.09.13-08.19.25:424][706]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_Player5D3724C74EB83EDA9184A4B7C8BDAE48.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset'
+[2022.09.13-08.19.25:445][706]AssetCheck: New page: 资产保存：BP_Player
+[2022.09.13-08.19.25:445][706]LogContentValidation: Display: 正在验证Blueprint /Game/ThirdPerson/Blueprints/BP_Player.BP_Player
+[2022.09.13-08.20.07:948][517]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-08.20.08:078][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.09.13-08.20.08:659][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset" SILENT=true
+[2022.09.13-08.20.08:672][564]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BW_Main
+[2022.09.13-08.20.08:673][564]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_MainBE5EFBAD4C6BD260FF342EB6497E579F.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset'
+[2022.09.13-08.20.08:695][564]AssetCheck: New page: 资产保存：BW_Main
+[2022.09.13-08.20.08:695][564]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main
+[2022.09.13-08.20.11:003][826]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.20.11:020][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.20.11:020][826]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:20:11）
+[2022.09.13-08.20.11:021][826]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.20.11:038][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017799s)
+[2022.09.13-08.20.11:039][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.017956s)
+[2022.09.13-08.20.11:039][826]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.20.11:039][826]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.20.11:039][826]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.20.11:040][826]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2022.09.13-08.20.11:139][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.09.13-08.20.11:144][826]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.09.13-08.20.11:144][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.20.11:144][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.20.11:144][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.20.11:144][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.20.11:144][826]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.20.11:144][826]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.20.11:144][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.20.11:144][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.20.11:145][826]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.20.11:145][826]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.20.11:145][826]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.20.11:147][826]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.20.11:167][826]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.20.11:167][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.20.11:167][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.20.11:167][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.20.11:169][826]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2022.09.13-08.20.11:169][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2022.09.13-08.20.11:171][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2022.09.13-08.20.11:171][826]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2022.09.13-08.20.11:171][826]LogInit: FAudioDevice initialized.
+[2022.09.13-08.20.11:171][826]LogAudio: Display: Audio Device (ID: 21) registered with world 'NewMap'.
+[2022.09.13-08.20.11:242][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.20.11:242][826]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.20.11:246][826]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.20.11
+[2022.09.13-08.20.11:247][826]LogWorld: Bringing up level for play took: 0.004543
+[2022.09.13-08.20.11:250][826]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2022.09.13-08.20.11:257][826]PIE: 登陆的服务器
+[2022.09.13-08.20.11:258][826]PIE: PIE总开始时间：0.238秒。
+[2022.09.13-08.20.11:270][826]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.20.16:698][ 36]LogBlueprintUserMessages: [BP_Player_C_0] 1
+[2022.09.13-08.20.19:834][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.20.19:834][175]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.20.19:835][175]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.20.19:840][175]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.20.19:841][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.20.19:858][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.20.19:869][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.20.19:960][175]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.13-08.20.19:961][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.09.13-08.20.19:963][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.09.13-08.20.19:976][175]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.09.13-08.20.20:024][176]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.09.13-08.20.59:982][880]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2022.09.13-08.20.59:984][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/地圖/NewMap" FILE="D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/地圖/NewMap_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.09.13-08.21.00:088][880]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/地圖/NewMap_Auto8
+[2022.09.13-08.21.00:089][880]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/NewMap_Auto8E533A6CA4665DB04B52CE9A74F731AD3.tmp' to 'D:/Github/Unreal/ThirdPerson/Saved/Autosaves/Game/地圖/NewMap_Auto8.umap'
+[2022.09.13-08.21.00:097][880]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/地圖/NewMap' took 0.212
+[2022.09.13-08.21.00:097][880]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.212
+[2022.09.13-08.27.30:898][710]LogDerivedDataCache: C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.232 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.13-08.27.41:012][840]BlueprintLog: New page: 编译BP_Player
+[2022.09.13-08.27.41:189][840]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2022.09.13-08.27.42:114][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Player" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset" SILENT=true
+[2022.09.13-08.27.42:136][910]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Player
+[2022.09.13-08.27.42:136][910]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_Player26493524445DD03650D29BA4F4EDD651.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset'
+[2022.09.13-08.27.42:159][910]AssetCheck: New page: 资产保存：BP_Player
+[2022.09.13-08.27.42:159][910]LogContentValidation: Display: 正在验证Blueprint /Game/ThirdPerson/Blueprints/BP_Player.BP_Player
+[2022.09.13-08.27.43:969][115]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.27.43:977][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.27.43:978][115]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:27:43）
+[2022.09.13-08.27.43:978][115]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.27.43:996][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017872s)
+[2022.09.13-08.27.43:996][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.017964s)
+[2022.09.13-08.27.43:996][115]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.27.43:996][115]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.27.43:997][115]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.27.43:997][115]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2022.09.13-08.27.44:092][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.09.13-08.27.44:097][115]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.09.13-08.27.44:097][115]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.27.44:097][115]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.27.44:097][115]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.27.44:097][115]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.27.44:097][115]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.27.44:097][115]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.27.44:097][115]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.27.44:097][115]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.27.44:097][115]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.27.44:097][115]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.27.44:097][115]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.27.44:099][115]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.27.44:123][115]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.27.44:124][115]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.27.44:124][115]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.27.44:124][115]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.27.44:125][115]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.09.13-08.27.44:125][115]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2022.09.13-08.27.44:127][115]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.09.13-08.27.44:127][115]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.09.13-08.27.44:127][115]LogInit: FAudioDevice initialized.
+[2022.09.13-08.27.44:127][115]LogAudio: Display: Audio Device (ID: 22) registered with world 'NewMap'.
+[2022.09.13-08.27.44:197][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.27.44:198][115]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.27.44:202][115]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.27.44
+[2022.09.13-08.27.44:202][115]LogWorld: Bringing up level for play took: 0.004527
+[2022.09.13-08.27.44:205][115]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2022.09.13-08.27.44:214][115]PIE: 登陆的服务器
+[2022.09.13-08.27.44:217][115]PIE: PIE总开始时间：0.24秒。
+[2022.09.13-08.27.44:231][115]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.27.50:586][347]PIE: Warning: 控件“BW_Main_C”已添加到屏幕。
+[2022.09.13-08.27.50:586][347]LogBlueprintUserMessages: [BP_Player_C_0] 1
+[2022.09.13-08.27.54:906][544]PIE: Warning: 控件“BW_Main_C”已添加到屏幕。
+[2022.09.13-08.27.54:906][544]LogBlueprintUserMessages: [BP_Player_C_0] 2
+[2022.09.13-08.27.57:207][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.27.57:207][649]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.27.57:208][649]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.27.57:213][649]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.27.57:214][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.27.57:228][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.27.57:240][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.27.57:335][649]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.13-08.27.57:335][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.09.13-08.27.57:337][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.09.13-08.27.57:349][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.09.13-08.27.57:529][650]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.09.13-08.27.59:743][889]LogSlate: Window '消息日志' being destroyed
+[2022.09.13-08.27.59:752][889]LogSlate: Window '消息日志' being destroyed
+[2022.09.13-08.28.38:705][462]BlueprintLog: New page: 编译BP_Player
+[2022.09.13-08.28.38:864][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.09.13-08.28.39:566][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_Player" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset" SILENT=true
+[2022.09.13-08.28.39:587][510]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Player
+[2022.09.13-08.28.39:587][510]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BP_PlayerBD83604D40F3F0956C6EB0B586A06662.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BP_Player.uasset'
+[2022.09.13-08.28.39:609][510]AssetCheck: New page: 资产保存：BP_Player
+[2022.09.13-08.28.39:609][510]LogContentValidation: Display: 正在验证Blueprint /Game/ThirdPerson/Blueprints/BP_Player.BP_Player
+[2022.09.13-08.28.43:314][934]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.28.43:322][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.28.43:322][934]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:28:43）
+[2022.09.13-08.28.43:322][934]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.28.43:340][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017842s)
+[2022.09.13-08.28.43:340][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.017933s)
+[2022.09.13-08.28.43:341][934]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.28.43:341][934]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.28.43:341][934]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.28.43:341][934]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2022.09.13-08.28.43:420][934]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2022.09.13-08.28.43:424][934]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.09.13-08.28.43:424][934]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.28.43:424][934]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.28.43:424][934]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.28.43:424][934]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.28.43:424][934]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.28.43:424][934]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.28.43:424][934]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.28.43:425][934]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.28.43:425][934]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.28.43:425][934]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.28.43:425][934]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.28.43:428][934]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.28.43:447][934]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.28.43:447][934]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.28.43:447][934]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.28.43:448][934]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.28.43:449][934]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2022.09.13-08.28.43:449][934]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2022.09.13-08.28.43:451][934]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2022.09.13-08.28.43:451][934]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2022.09.13-08.28.43:451][934]LogInit: FAudioDevice initialized.
+[2022.09.13-08.28.43:451][934]LogAudio: Display: Audio Device (ID: 23) registered with world 'NewMap'.
+[2022.09.13-08.28.43:512][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.28.43:512][934]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.28.43:516][934]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.28.43
+[2022.09.13-08.28.43:517][934]LogWorld: Bringing up level for play took: 0.004443
+[2022.09.13-08.28.43:519][934]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2022.09.13-08.28.43:528][934]PIE: 登陆的服务器
+[2022.09.13-08.28.43:530][934]PIE: PIE总开始时间：0.208秒。
+[2022.09.13-08.28.43:543][934]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.28.52:913][315]PIE: Warning: 控件“BW_Main_C”已添加到屏幕。
+[2022.09.13-08.28.57:169][514]PIE: Warning: 控件“BW_Main_C”已添加到屏幕。
+[2022.09.13-08.28.58:597][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.28.58:597][579]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.28.58:598][579]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.28.58:605][579]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.28.58:606][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.28.58:622][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.28.58:636][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.28.58:723][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.09.13-08.28.58:725][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.09.13-08.28.58:737][579]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.09.13-08.28.58:923][580]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2022.09.13-08.29.00:960][791]LogSlate: Window '消息日志' being destroyed
+[2022.09.13-08.29.00:970][791]LogSlate: Window '消息日志' being destroyed
+[2022.09.13-08.29.02:100][926]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.29.02:109][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.29.02:109][926]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:29:02）
+[2022.09.13-08.29.02:109][926]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.29.02:129][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019929s)
+[2022.09.13-08.29.02:129][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.020027s)
+[2022.09.13-08.29.02:130][926]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.29.02:130][926]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.29.02:130][926]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.29.02:131][926]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2022.09.13-08.29.02:219][926]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2022.09.13-08.29.02:222][926]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.09.13-08.29.02:222][926]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.29.02:222][926]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.29.02:222][926]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.29.02:222][926]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.29.02:222][926]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.29.02:222][926]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.29.02:222][926]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.29.02:222][926]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.29.02:222][926]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.29.02:222][926]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.29.02:222][926]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.29.02:225][926]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.29.02:246][926]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.29.02:247][926]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.29.02:247][926]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.29.02:247][926]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.29.02:248][926]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2022.09.13-08.29.02:248][926]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2022.09.13-08.29.02:251][926]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2022.09.13-08.29.02:251][926]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2022.09.13-08.29.02:251][926]LogInit: FAudioDevice initialized.
+[2022.09.13-08.29.02:251][926]LogAudio: Display: Audio Device (ID: 24) registered with world 'NewMap'.
+[2022.09.13-08.29.02:317][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.29.02:317][926]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.29.02:322][926]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.29.02
+[2022.09.13-08.29.02:322][926]LogWorld: Bringing up level for play took: 0.004321
+[2022.09.13-08.29.02:325][926]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2022.09.13-08.29.02:333][926]PIE: 登陆的服务器
+[2022.09.13-08.29.02:335][926]PIE: PIE总开始时间：0.227秒。
+[2022.09.13-08.29.02:348][926]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.29.07:077][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.29.07:077][113]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.29.07:077][113]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.29.07:091][113]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.29.07:092][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.29.07:103][113]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.29.07:115][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.29.07:204][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.09.13-08.29.07:206][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.09.13-08.29.07:218][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.09.13-08.29.07:265][114]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.09.13-08.29.19:233][518]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-08.29.19:233][518]LogSlateStyle: Warning: 未能找到Slate控件类型“None”。请使用FToolbarStyle默认值替换。
+[2022.09.13-08.29.56:699][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset" SILENT=true
+[2022.09.13-08.29.56:714][492]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BW_Main
+[2022.09.13-08.29.56:715][492]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_Main007E0090409AEE28ADDEAD9075363123.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset'
+[2022.09.13-08.29.56:736][492]AssetCheck: New page: 资产保存：BW_Main
+[2022.09.13-08.29.56:736][492]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main
+[2022.09.13-08.29.57:896][607]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.29.57:905][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.29.57:905][607]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:29:57）
+[2022.09.13-08.29.57:905][607]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.29.57:925][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019961s)
+[2022.09.13-08.29.57:925][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.020065s)
+[2022.09.13-08.29.57:925][607]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.29.57:925][607]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.29.57:926][607]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.29.57:926][607]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2022.09.13-08.29.58:021][607]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.09.13-08.29.58:023][607]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.09.13-08.29.58:023][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.29.58:023][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.29.58:023][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.29.58:023][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.29.58:023][607]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.29.58:023][607]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.29.58:023][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.29.58:023][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.29.58:024][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.29.58:024][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.29.58:024][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.29.58:027][607]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.29.58:049][607]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.29.58:049][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.29.58:050][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.29.58:050][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.29.58:051][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.09.13-08.29.58:051][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2022.09.13-08.29.58:054][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.09.13-08.29.58:054][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.09.13-08.29.58:054][607]LogInit: FAudioDevice initialized.
+[2022.09.13-08.29.58:054][607]LogAudio: Display: Audio Device (ID: 25) registered with world 'NewMap'.
+[2022.09.13-08.29.58:129][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.29.58:129][607]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.29.58:133][607]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.29.58
+[2022.09.13-08.29.58:133][607]LogWorld: Bringing up level for play took: 0.004400
+[2022.09.13-08.29.58:136][607]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2022.09.13-08.29.58:143][607]PIE: 登陆的服务器
+[2022.09.13-08.29.58:145][607]PIE: PIE总开始时间：0.241秒。
+[2022.09.13-08.29.58:159][607]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.30.02:106][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.30.02:106][746]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.30.02:107][746]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.30.02:116][746]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.30.02:117][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.30.02:130][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.30.02:141][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.30.02:227][746]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.13-08.30.02:228][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.09.13-08.30.02:230][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.09.13-08.30.02:242][746]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.09.13-08.30.02:291][747]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.09.13-08.30.03:200][829]BlueprintLog: New page: 编译BW_Main
+[2022.09.13-08.30.03:332][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.09.13-08.30.04:281][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset" SILENT=true
+[2022.09.13-08.30.04:295][901]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BW_Main
+[2022.09.13-08.30.04:295][901]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_Main2078BF7C48000D34AA8144BE68CB8D4D.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset'
+[2022.09.13-08.30.04:317][901]AssetCheck: New page: 资产保存：BW_Main
+[2022.09.13-08.30.04:317][901]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main
+[2022.09.13-08.30.45:049][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BW_Main" FILE="D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset" SILENT=true
+[2022.09.13-08.30.45:063][419]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BW_Main
+[2022.09.13-08.30.45:063][419]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/BW_Main42121182474F4798449097A5C04CA3CE.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/ThirdPerson/Blueprints/BW_Main.uasset'
+[2022.09.13-08.30.45:083][419]AssetCheck: New page: 资产保存：BW_Main
+[2022.09.13-08.30.45:083][419]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/ThirdPerson/Blueprints/BW_Main.BW_Main
+[2022.09.13-08.30.47:379][643]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2022.09.13-08.30.47:388][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.13-08.30.47:388][643]PIE: New page: PIE会话：NewMap（2022年9月14日 上午12:30:47）
+[2022.09.13-08.30.47:389][643]LogPlayLevel: Creating play world package: /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.30.47:409][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019758s)
+[2022.09.13-08.30.47:409][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/地圖/NewMap.NewMap to /Game/地圖/UEDPIE_0_NewMap.NewMap (0.019870s)
+[2022.09.13-08.30.47:409][643]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.13-08.30.47:409][643]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.13-08.30.47:409][643]LogAIModule: Creating AISystem for world NewMap
+[2022.09.13-08.30.47:410][643]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2022.09.13-08.30.47:516][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.09.13-08.30.47:518][643]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.09.13-08.30.47:519][643]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.13-08.30.47:519][643]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.13-08.30.47:519][643]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.13-08.30.47:519][643]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.13-08.30.47:519][643]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.13-08.30.47:519][643]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.13-08.30.47:519][643]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.13-08.30.47:519][643]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.13-08.30.47:519][643]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.13-08.30.47:519][643]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.13-08.30.47:519][643]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.13-08.30.47:523][643]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.13-08.30.47:543][643]LogAudioMixer: Display: Using Audio Hardware Device MAG0001 (NVIDIA High Definition Audio)
+[2022.09.13-08.30.47:544][643]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.13-08.30.47:544][643]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.13-08.30.47:544][643]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.13-08.30.47:546][643]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2022.09.13-08.30.47:546][643]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2022.09.13-08.30.47:548][643]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2022.09.13-08.30.47:548][643]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2022.09.13-08.30.47:548][643]LogInit: FAudioDevice initialized.
+[2022.09.13-08.30.47:548][643]LogAudio: Display: Audio Device (ID: 26) registered with world 'NewMap'.
+[2022.09.13-08.30.47:621][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.30.47:622][643]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.09.13-08.30.47:626][643]LogWorld: Bringing World /Game/地圖/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2022.09.13-16.30.47
+[2022.09.13-08.30.47:627][643]LogWorld: Bringing up level for play took: 0.004510
+[2022.09.13-08.30.47:630][643]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2022.09.13-08.30.47:638][643]PIE: 登陆的服务器
+[2022.09.13-08.30.47:639][643]PIE: PIE总开始时间：0.251秒。
+[2022.09.13-08.30.47:655][643]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2022.09.13-08.30.56:614][994]PIE: Warning: 控件“BW_Main_C”已添加到屏幕。
+[2022.09.13-08.31.05:087][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.13-08.31.05:087][349]LogWorld: BeginTearingDown for /Game/地圖/UEDPIE_0_NewMap
+[2022.09.13-08.31.05:088][349]LogSlate: Window 'ThirdPerson 预览 [NetMode: Standalone]  （64-bit/SM5）' being destroyed
+[2022.09.13-08.31.05:099][349]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.13-08.31.05:100][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.31.05:115][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.13-08.31.05:126][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.13-08.31.05:212][349]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.13-08.31.05:213][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.09.13-08.31.05:215][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.09.13-08.31.05:227][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.09.13-08.31.05:402][350]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.09.13-08.31.07:104][497]LogSlate: Window '消息日志' being destroyed
+[2022.09.13-08.31.07:114][497]LogSlate: Window '消息日志' being destroyed
+[2022.09.13-08.31.10:490][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/地圖/NewMap" FILE="D:/Github/Unreal/ThirdPerson/Content/地圖/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.13-08.31.10:580][752]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.09.13-08.31.10:684][752]LogSavePackage: Moving output files for package: /Game/地圖/NewMap
+[2022.09.13-08.31.10:684][752]LogSavePackage: Moving 'D:/Github/Unreal/ThirdPerson/Saved/NewMap61717CA143D0BAA563093A84E53B0991.tmp' to 'D:/Github/Unreal/ThirdPerson/Content/地圖/NewMap.umap'
+[2022.09.13-08.31.10:701][752]LogFileHelpers: 没有需要保存的新变更！
+[2022.09.13-08.31.10:721][752]AssetCheck: New page: 资产保存：NewMap
+[2022.09.13-08.31.10:721][752]LogContentValidation: Display: 正在验证World /Game/地圖/NewMap.NewMap
